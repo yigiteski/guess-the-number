@@ -1,6 +1,6 @@
 import random
 
-# Message Information. Update 1.1   
+# Message Information. Update 1.3
 
 def main():
     target = random.randint(1, 100)

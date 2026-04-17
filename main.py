@@ -1,5 +1,7 @@
 import random
 
+# Message Information
+
 def main():
     target = random.randint(1, 100)
     attempt_count = 0

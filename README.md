@@ -13,18 +13,20 @@ is too high or too low until you find the correct number.
    cd number-guessing-game
 2. **Create and activate a virtual environment**
 
-python -m venv venv      # Windows
-# or
-python3 -m venv venv    # macOS / Linux
-
-source venv/bin/activate  # macOS / Linux
-.\venv\Scripts\activate    # Windows
+    ```bash
+    python -m venv venv      # Windows
+    # or
+    python3 -m venv venv    # macOS / Linux
+ 
+   source venv/bin/activate  # macOS / Linux
+    .\venv\Scripts\activate    # Windows
 
 3. **Run the game**
 
-python guess.py          # Windows
-# or
-python3 guess.py         # macOS / Linux
+    ```bash
+    python guess.py          # Windows
+    # or
+    python3 guess.py         # macOS / Linux
 
 ## Features
 
@@ -32,3 +34,4 @@ Random number generation (1–100)
 Input validation with error handling
 Feedback on each guess (“Too high!” / “Too low!”)
 Tracks the number of attempts
+
